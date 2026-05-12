@@ -32,6 +32,14 @@ public class EmployeePayrollService {
 
         employeePayrollService.writeEmployeePayrollData();
 
-        System.out.println("Payroll Written Successfully");
+        EmployeePayrollFileIOService fileIOService =
+                new EmployeePayrollFileIOService();
+
+        fileIOService.printData();
+
+        System.out.println(
+                "Entries Count : "
+                        + fileIOService.countEntries()
+        );
     }
 }
