@@ -1,4 +1,4 @@
-package com.bridgelabz.employeepayroll;
+package employeepayroll;
 
 import java.util.ArrayList;
 import java.util.List;

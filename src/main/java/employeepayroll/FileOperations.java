@@ -1,4 +1,4 @@
-package com.bridgelabz.employeepayroll;
+package employeepayroll;
 
 import java.io.IOException;
 import java.nio.file.Files;

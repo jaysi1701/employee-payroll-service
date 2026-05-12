@@ -1,4 +1,4 @@
-package com.bridgelabz.employeepayroll;
+package employeepayroll;
 
 public class EmployeePayrollData {
 
