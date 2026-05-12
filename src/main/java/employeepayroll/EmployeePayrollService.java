@@ -35,11 +35,21 @@ public class EmployeePayrollService {
         EmployeePayrollFileIOService fileIOService =
                 new EmployeePayrollFileIOService();
 
+        System.out.println("Printing Data");
+
         fileIOService.printData();
+
+        System.out.println();
 
         System.out.println(
                 "Entries Count : "
                         + fileIOService.countEntries()
         );
+
+        System.out.println();
+
+        System.out.println("Reading Data From File");
+
+        fileIOService.readData();
     }
 }

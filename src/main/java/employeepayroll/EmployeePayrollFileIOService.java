@@ -65,4 +65,17 @@ public class EmployeePayrollFileIOService {
 
         return entries;
     }
+
+    public void readData() {
+
+        try {
+
+            Files.lines(Paths.get(PAYROLL_FILE_NAME))
+                    .forEach(System.out::println);
+
+        } catch (IOException e) {
+
+            e.printStackTrace();
+        }
+    }
 }
